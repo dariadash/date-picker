@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button[class^="materialui-daterange-picker-makeStyles-filled"], button[class*=" materialui-daterange-picker-makeStyles-filled"] { background-color: orange !important; border-radius: 2px;}
+
+button[class*="materialui-daterange-picker-makeStyles-outlined"] {
+  border: 1px solid peru;
+  border-radius: 3px;
+}
+
+button[class*="materialui-daterange-picker-MuiIconButton-root"]{
+  border-radius: 3px;
+}
+
+div[class*="materialui-daterange-picker-makeStyles-header-4 "]{
+  display: none;
+}
