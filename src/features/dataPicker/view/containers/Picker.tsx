@@ -5,10 +5,11 @@ import {
     startOfYesterday,
     subDays,
     subMonths,
-    startOfMonth
+    startOfMonth,
+    endOfMonth,
+    toDate
 } from "date-fns";
 import { DateRangePicker } from "materialui-daterange-picker";
-import { endOfMonth, toDate } from 'date-fns/esm';
 import { setCurrentDateInterval } from '../../model';
 
 type Props = {
